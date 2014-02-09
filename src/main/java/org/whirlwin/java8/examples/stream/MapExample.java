@@ -1,4 +1,4 @@
-package org.whirlwin.java8.examples;
+package org.whirlwin.java8.examples.stream;
 
 import java.util.Arrays;
 import java.util.List;
