@@ -1,10 +1,10 @@
-package org.whirlwin.java8.examples.misc;
+package org.whirlwin.java8.examples.optional;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-public class OptionalExample {
+public class AvoidingNullExample {
 
     private static final Map<Integer, String> NAME_REGISTRY = new HashMap<Integer, String>() {{
         put(1, "John Doe");
