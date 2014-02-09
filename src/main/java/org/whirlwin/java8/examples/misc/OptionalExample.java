@@ -6,7 +6,7 @@ import java.util.Optional;
 
 public class OptionalExample {
 
-    private static final Map<Integer, String> nameRegistry = new HashMap<Integer, String>() {{
+    private static final Map<Integer, String> NAME_REGISTRY = new HashMap<Integer, String>() {{
         put(1, "John Doe");
     }};
 
@@ -19,7 +19,7 @@ public class OptionalExample {
     }
 
     public static Optional<String> getNameById(int id) {
-        String name = nameRegistry.get(id);
+        String name = NAME_REGISTRY.get(id);
         return Optional.ofNullable(name);
     }
 
